@@ -1,3 +1,4 @@
 *.png
 shot.py
 shot.log
+build/

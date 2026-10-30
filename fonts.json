@@ -1,5 +1,65 @@
 [
  {
+  "slug": "malaaki-wide",
+  "name": "Malaaki Wide",
+  "author": "Fathimath Malaak Jaufar",
+  "copy": "Copyright (c) 2020 Thaana Type Foundry · Copyright (c) 2026 Fathimath Malaak Jaufar (modified version: Malaaki Wide, based on Theras by Ayeshath Fadwa / Thaana Type Foundry)",
+  "based": "Theras (Ayeshath Fadwa, Thaana Type Foundry)",
+  "desc": "Stretched 142% wide for big friendly headlines",
+  "src": "https://reseachrandomv.github.io/dhivehi-fonts/",
+  "preview": "fonts/malaaki-wide/MalaakiWide-Regular.ttf",
+  "zip": "fonts/malaaki-wide/malaaki-wide.zip",
+  "styles": [
+   "Regular"
+  ],
+  "mine": true
+ },
+ {
+  "slug": "malaaki-condensed",
+  "name": "Malaaki Condensed",
+  "author": "Fathimath Malaak Jaufar",
+  "copy": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thaana) · Copyright (c) 2026 Fathimath Malaak Jaufar (modified version: Malaaki Condensed, based on Noto Sans Thaana by The Noto Project Authors)",
+  "based": "Noto Sans Thaana Bold (The Noto Project Authors)",
+  "desc": "Squeezed to 74% width for tight posters and signs",
+  "src": "https://reseachrandomv.github.io/dhivehi-fonts/",
+  "preview": "fonts/malaaki-condensed/MalaakiCondensed-Regular.ttf",
+  "zip": "fonts/malaaki-condensed/malaaki-condensed.zip",
+  "styles": [
+   "Regular"
+  ],
+  "mine": true
+ },
+ {
+  "slug": "malaaki-lean",
+  "name": "Malaaki Lean",
+  "author": "Fathimath Malaak Jaufar",
+  "copy": "Copyright (c) 2020 Thaana Type Foundry · Copyright (c) 2026 Fathimath Malaak Jaufar (modified version: Malaaki Lean, based on Kolhu by Ayeshath Fadwa / Thaana Type Foundry)",
+  "based": "Kolhu (Ayeshath Fadwa, Thaana Type Foundry)",
+  "desc": "A sporty forward slant for motion and sport",
+  "src": "https://reseachrandomv.github.io/dhivehi-fonts/",
+  "preview": "fonts/malaaki-lean/MalaakiLean-Regular.ttf",
+  "zip": "fonts/malaaki-lean/malaaki-lean.zip",
+  "styles": [
+   "Regular"
+  ],
+  "mine": true
+ },
+ {
+  "slug": "malaaki-stencil",
+  "name": "Malaaki Stencil",
+  "author": "Fathimath Malaak Jaufar",
+  "copy": "Copyright (c) 2020 Thaana Type · Copyright (c) 2026 Fathimath Malaak Jaufar (modified version: Malaaki Stencil, based on Fanara Black by Ayeshath Fadwa + Shahee Ilyas / Thaana Type Foundry)",
+  "based": "Fanara Black (Ayeshath Fadwa + Shahee Ilyas, Thaana Type Foundry)",
+  "desc": "Heavy stencil with a cut through every letter",
+  "src": "https://reseachrandomv.github.io/dhivehi-fonts/",
+  "preview": "fonts/malaaki-stencil/MalaakiStencil-Regular.ttf",
+  "zip": "fonts/malaaki-stencil/malaaki-stencil.zip",
+  "styles": [
+   "Regular"
+  ],
+  "mine": true
+ },
+ {
   "slug": "noto-sans-thaana",
   "name": "Noto Sans Thaana",
   "author": "The Noto Project Authors (Google)",
@@ -293,5 +353,34 @@
    "SemiBold",
    "Thin"
   ]
+ },
+ {
+  "slug": "gnu-freeserif",
+  "name": "GNU FreeSerif",
+  "author": "GNU FreeFont contributors",
+  "copy": "Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.",
+  "src": "https://www.gnu.org/software/freefont/",
+  "preview": "fonts/gnu-freeserif/FreeSerif.ttf",
+  "zip": "fonts/gnu-freeserif/gnu-freeserif.zip",
+  "styles": [
+   "Regular",
+   "Bold"
+  ],
+  "lic": "GPLv3+ with font exception",
+  "licfile": "fonts/gnu-freeserif/COPYING.txt"
+ },
+ {
+  "slug": "unifont",
+  "name": "GNU Unifont",
+  "author": "Roman Czyborra, Paul Hardy and contributors",
+  "copy": "Copyright © 1998-2025 Roman Czyborra, Paul Hardy, Qianqian Fang, Andrew Miller, Johnnie Weaver, David Corbett, Nils Moskopp, Rebecca Bettencourt, Ho-Seok Ee, et al.",
+  "src": "https://unifoundry.com/unifont/",
+  "preview": "fonts/unifont/unifont.otf",
+  "zip": "fonts/unifont/unifont.zip",
+  "styles": [
+   "Regular (pixel)"
+  ],
+  "lic": "SIL OFL 1.1 (or GPLv2+ with font exception)",
+  "licfile": "fonts/unifont/OFL.txt"
  }
 ]

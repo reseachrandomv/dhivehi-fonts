@@ -6,17 +6,17 @@ const fmt=n=>n==null?"–":Number(n).toLocaleString();
 fetch("fonts.json").then(r=>r.json()).then(d=>{F=d;const st=document.createElement("style");
 st.textContent=d.map(f=>`@font-face{font-family:"L-${f.slug}";src:url("${f.preview}");font-display:swap}`).join("");document.head.append(st);
 $("#sFonts").textContent=d.length;$("#cssFont").innerHTML=d.map((f,i)=>`<option value="${i}">${f.name}</option>`).join("");
-$("#credits").innerHTML=d.map(f=>`<li><b>${f.name}</b> by ${f.author}. ${f.copy}. <a href="${f.src}" target="_blank" rel="noopener">Original source</a> · <a href="${f.zip.replace(/[^/]+$/,"OFL.txt")}">OFL.txt</a></li>`).join("");
+$("#credits").innerHTML=d.map(f=>`<li><b>${f.name}</b> by ${f.author}. ${f.copy}. <a href="${f.src}" target="_blank" rel="noopener">Original source</a> · <a href="${f.licfile||f.zip.replace(/[^/]+$/,"OFL.txt")}">${f.lic||"SIL OFL 1.1"}</a>${f.mine?" · based on "+f.based:""}</li>`).join("");
 render();snippet();loadCounts()});
 async function loadCounts(){get("subscribers").then(v=>$("#sSubs").textContent=fmt(v));
 const v=await Promise.all(F.map(f=>get("dl-"+f.slug)));F.forEach((f,i)=>counts[f.slug]=v[i]);
 $("#sDl").textContent=fmt(v.reduce((a,b)=>a+b,0));document.querySelectorAll("[data-cnt]").forEach(e=>e.textContent=fmt(counts[e.dataset.cnt])+" downloads")}
-function render(){const q=$("#q").value.toLowerCase(),sz=$("#size").value,t=txt.value||"ދިވެހި";cards.innerHTML="";
+function render(){const q=$("#q").value.toLowerCase(),sz=$("#size").value,t=txt.value||"ދިވެހި";cards.innerHTML="";$("#mineCards").innerHTML="";
 F.filter(f=>(f.name+" "+f.author+" "+f.styles.join(" ")).toLowerCase().includes(q)).forEach(f=>{const c=document.createElement("article");c.className="card";
 c.innerHTML=`<h3>${f.name}</h3><div class="s" lang="dv" style="font-family:'L-${f.slug}','Noto Sans Thaana';font-size:${sz}px"></div>
-<div class="meta">By ${f.author} · ${f.styles.length} style${f.styles.length>1?"s":""} · <a href="${f.zip.replace(/[^/]+$/,"OFL.txt")}">SIL OFL 1.1</a></div>
+${f.mine?`<div class="meta"><b>${f.desc}.</b> Based on ${f.based}.</div>`:""}<div class="meta">By ${f.author} · ${f.styles.length} style${f.styles.length>1?"s":""} · <a href="${f.licfile||f.zip.replace(/[^/]+$/,"OFL.txt")}">${f.lic||"SIL OFL 1.1"}</a></div>
 <div class="row2"><span class="cnt" data-cnt="${f.slug}">${fmt(counts[f.slug])} downloads</span></div>
-<button class="cta">⬇ Download free (.zip)</button>`;c.querySelector(".s").textContent=t;c.querySelector("button").onclick=()=>download(f);cards.append(c)})}
+<button class="cta">⬇ Download free (.zip)</button>`;c.querySelector(".s").textContent=t;c.querySelector("button").onclick=()=>download(f);if(f.mine)c.classList.add("mc");(f.mine?$("#mineCards"):cards).append(c)})}
 function download(f){if(!localStorage.liyunName){pending=f;$("#modal").hidden=false;$("#nm").focus();return}
 const a=document.createElement("a");a.href=f.zip;a.download="";document.body.append(a);a.click();a.remove();
 hit("dl-"+f.slug).then(v=>{if(v!=null){counts[f.slug]=v;const e=document.querySelector(`[data-cnt="${f.slug}"]`);if(e)e.textContent=fmt(v)+" downloads";$("#sDl").textContent=fmt(Object.values(counts).reduce((a,b)=>a+b,0))}})}
