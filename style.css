@@ -1,0 +1,23 @@
+@font-face{font-family:"Noto Sans Thaana";src:url(fonts/NotoSansThaana-Variable.ttf) format("truetype");font-weight:100 900;font-display:swap}
+:root{--bg:#f6f8fb;--fg:#13202e;--card:#fff;--mut:#5b6b7c;--ac:#0b8f8a;--bd:#dde4ec}
+[data-theme=dark]{--bg:#0d141c;--fg:#e8eef4;--card:#16212d;--mut:#94a3b3;--ac:#2fd1c5;--bd:#243243}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+[lang=dv]{font-family:"Noto Sans Thaana",sans-serif}
+a{color:var(--ac)}main{max-width:1100px;margin:auto;padding:0 16px}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--bd);z-index:5}
+.brand{font-weight:700}.dv{color:var(--mut);margin-inline-start:6px}.logo{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:8px;background:var(--ac);color:#fff;margin-inline-end:6px}
+button,select,input[type=search]{font:inherit;border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:10px;padding:8px 12px;cursor:pointer}
+.hero h1{font-size:clamp(28px,6vw,48px);margin:28px 0 8px}.hero em{color:var(--ac);font-style:normal}.hero p{color:var(--mut);margin:0 0 20px}
+.panel{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px;margin:16px 0}
+textarea{width:100%;font-size:28px;border:1px solid var(--bd);border-radius:12px;padding:12px;background:var(--bg);color:var(--fg);resize:vertical;text-align:right}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}.controls input[type=search]{flex:1;min-width:180px}
+.kb{display:grid;gap:6px;margin-top:12px}.kb .row{display:flex;gap:4px;justify-content:center}
+.kb button{flex:1;max-width:58px;padding:6px 0;font-family:"Noto Sans Thaana";font-size:20px;line-height:1.1}.kb small{display:block;font:10px system-ui;color:var(--mut)}
+.kb .wide{max-width:120px;font:14px system-ui}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card .s{font-family:"Noto Sans Thaana";direction:rtl;text-align:right;overflow-wrap:anywhere;min-height:2em;line-height:1.7}
+.meta{color:var(--mut);font-size:13px}.dl{background:var(--ac);color:#fff;border:0;text-decoration:none;text-align:center;border-radius:10px;padding:10px;font-weight:600}
+.tabs{display:flex;gap:6px}.tabs .on{background:var(--ac);color:#fff}
+pre{background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:12px;overflow:auto;font-size:13px;direction:ltr}
+footer{text-align:center;padding:28px;color:var(--mut)}
