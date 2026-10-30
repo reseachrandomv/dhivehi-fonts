@@ -1,0 +1,297 @@
+[
+ {
+  "slug": "noto-sans-thaana",
+  "name": "Noto Sans Thaana",
+  "author": "The Noto Project Authors (Google)",
+  "copy": "Copyright 2022 The Noto Project Authors",
+  "src": "https://github.com/notofonts/thaana",
+  "preview": "fonts/NotoSansThaana-Variable.ttf",
+  "zip": "fonts/NotoSansThaana-all.zip",
+  "styles": [
+   "Light",
+   "Regular",
+   "Medium",
+   "Bold",
+   "Black",
+   "Variable"
+  ],
+  "gf": "Noto+Sans+Thaana:wght@100..900"
+ },
+ {
+  "slug": "bolhu",
+  "name": "Bolhu",
+  "author": "Ayeshath Fadwa + Shahee Ilyas",
+  "copy": "Copyright (c) 2020 Thaana Type",
+  "src": "https://thaana.com/bolhu/",
+  "preview": "fonts/bolhu/Bolhu-Regular.ttf",
+  "zip": "fonts/bolhu/bolhu.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "ExtraBold",
+   "ExtraLight",
+   "Light",
+   "Medium",
+   "Regular",
+   "SemiBold",
+   "Thin"
+  ]
+ },
+ {
+  "slug": "faagathi-dheli",
+  "name": "Faagathi Dheli",
+  "author": "Ayeshath Fadwa + Shahee Ilyas",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/faagathi-dheli/",
+  "preview": "fonts/faagathi-dheli/FaagathiDheli-Regular.ttf",
+  "zip": "fonts/faagathi-dheli/faagathi-dheli.zip",
+  "styles": [
+   "Light",
+   "Regular"
+  ]
+ },
+ {
+  "slug": "faagathi-neon",
+  "name": "Faagathi Neon",
+  "author": "Ayeshath Fadwa + Shahee Ilyas",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/faagathi-neon/",
+  "preview": "fonts/faagathi-neon/FaagathiNeon-Regular.ttf",
+  "zip": "fonts/faagathi-neon/faagathi-neon.zip",
+  "styles": [
+   "Bold",
+   "ExtraLight",
+   "Light",
+   "Regular"
+  ]
+ },
+ {
+  "slug": "faaru-punk",
+  "name": "Faaru Punk",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/faaru-punk/",
+  "preview": "fonts/faaru-punk/FaaruPunk-Regular.ttf",
+  "zip": "fonts/faaru-punk/faaru-punk.zip",
+  "styles": [
+   "Bold",
+   "Regular"
+  ]
+ },
+ {
+  "slug": "fanara",
+  "name": "Fanara",
+  "author": "Ayeshath Fadwa + Shahee Ilyas",
+  "copy": "Copyright (c) 2020 Thaana Type",
+  "src": "https://thaana.com/fanara/",
+  "preview": "fonts/fanara/Fanara-Regular.ttf",
+  "zip": "fonts/fanara/fanara.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "Regular",
+   "Thin"
+  ]
+ },
+ {
+  "slug": "fanara-golhi",
+  "name": "Fanara Golhi",
+  "author": "Ayeshath Fadwa + Shahee Ilyas",
+  "copy": "Copyright (c) 2021 Thaana Type",
+  "src": "https://thaana.com/fanara-golhi/",
+  "preview": "fonts/fanara-golhi/FanaraGolhi-Regular.ttf",
+  "zip": "fonts/fanara-golhi/fanara-golhi.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "ExtraBold",
+   "ExtraLight",
+   "Light",
+   "Medium",
+   "Regular",
+   "SemiBold",
+   "Thin"
+  ]
+ },
+ {
+  "slug": "fiyuzu",
+  "name": "Fiyuzu",
+  "author": "Shahee Ilyas",
+  "copy": "Copyright (c) 2020 Thaana Type",
+  "src": "https://thaana.com/fiyuzu/",
+  "preview": "fonts/fiyuzu/Fiyuzu-Regular.ttf",
+  "zip": "fonts/fiyuzu/fiyuzu.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "gurafiku",
+  "name": "Gurafiku",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/gurafiku/",
+  "preview": "fonts/gurafiku/Gurafiku-Regular.ttf",
+  "zip": "fonts/gurafiku/gurafiku.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "haluvidhaa",
+  "name": "Haluvidhaa",
+  "author": "Hasan Shazil",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/haluvidhaa/",
+  "preview": "fonts/haluvidhaa/Haluvidhaa-Regular.ttf",
+  "zip": "fonts/haluvidhaa/haluvidhaa.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "hawwa",
+  "name": "Hawwa",
+  "author": "Hasan Shazil",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/hawwa/",
+  "preview": "fonts/hawwa/Hawwa-Regular.ttf",
+  "zip": "fonts/hawwa/hawwa.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "kolhu",
+  "name": "Kolhu",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2020 Thaana Type Foundry",
+  "src": "https://thaana.com/kolhu/",
+  "preview": "fonts/kolhu/Kolhu-Regular.ttf",
+  "zip": "fonts/kolhu/kolhu.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "ExtraBold",
+   "ExtraLight",
+   "Light",
+   "Medium",
+   "Regular",
+   "SemiBold",
+   "Thin"
+  ]
+ },
+ {
+  "slug": "lcd-thaana",
+  "name": "LCD Thaana",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2015 Fredrick Brennan <copypaste@kittens.ph>",
+  "src": "https://thaana.com/lcd-thaana/",
+  "preview": "fonts/lcd-thaana/LCDThaana-Regular.ttf",
+  "zip": "fonts/lcd-thaana/lcd-thaana.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "masnooee-mono",
+  "name": "Masnooee Mono",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) Thaana Type Foundry",
+  "src": "https://thaana.com/masnooee-mono/",
+  "preview": "fonts/masnooee-mono/MasnooeeMono-Regular.ttf",
+  "zip": "fonts/masnooee-mono/masnooee-mono.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "motaru-dhigu",
+  "name": "Motaru Dhigu",
+  "author": "Adnan Ali",
+  "copy": "Copyright (c) 2021, Adnan Ali (email: adnan@civ-eng.net)",
+  "src": "https://thaana.com/motaru-dhigu/",
+  "preview": "fonts/motaru-dhigu/MotaruDhigu-Regular.ttf",
+  "zip": "fonts/motaru-dhigu/motaru-dhigu.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "motaru-square",
+  "name": "Motaru Square",
+  "author": "Adnan Ali",
+  "copy": "Copyright (c) 2021, Adnan Ali (email: adnan@civ-eng.net)",
+  "src": "https://thaana.com/motaru-square/",
+  "preview": "fonts/motaru-square/MotaruSquare-Regular.ttf",
+  "zip": "fonts/motaru-square/motaru-square.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "sangu-suruhee",
+  "name": "Sangu Suruhee",
+  "author": "Hasan Shazil",
+  "copy": "Copyright (c) 2021 Thaana Type Foundry",
+  "src": "https://thaana.com/sangu-suruhee/",
+  "preview": "fonts/sangu-suruhee/SanguSuruhee-Regular.ttf",
+  "zip": "fonts/sangu-suruhee/sangu-suruhee.zip",
+  "styles": [
+   "Regular"
+  ]
+ },
+ {
+  "slug": "theras",
+  "name": "Theras",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2020 Thaana Type Foundry",
+  "src": "https://thaana.com/theras/",
+  "preview": "fonts/theras/Theras-Regular.ttf",
+  "zip": "fonts/theras/theras.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "ExtraBold",
+   "ExtraLight",
+   "Light",
+   "Medium",
+   "Regular",
+   "SemiBold",
+   "Thin"
+  ]
+ },
+ {
+  "slug": "viethaana",
+  "name": "Viethaana",
+  "author": "Ayeshath Fadwa",
+  "copy": "Copyright (c) 2012, The Raleway Project Authors",
+  "src": "https://thaana.com/viethaana/",
+  "preview": "fonts/viethaana/Viethaana-Bold.ttf",
+  "zip": "fonts/viethaana/viethaana.zip",
+  "styles": [
+   "Bold",
+   "Light"
+  ]
+ },
+ {
+  "slug": "zaana-thedhu",
+  "name": "Zaana Thedhu",
+  "author": "Adam Zubin",
+  "copy": "Copyright (c) 2021 Thaana Type",
+  "src": "https://thaana.com/zaana-thedhu/",
+  "preview": "fonts/zaana-thedhu/ZaanaThedhu-Regular.ttf",
+  "zip": "fonts/zaana-thedhu/zaana-thedhu.zip",
+  "styles": [
+   "Black",
+   "Bold",
+   "ExtraBold",
+   "ExtraLight",
+   "Light",
+   "Medium",
+   "Regular",
+   "SemiBold",
+   "Thin"
+  ]
+ }
+]

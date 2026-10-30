@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Liyun · Free Dhivehi fonts · ލިޔުން</title>
+<meta name="description" content="Liyun: free, openly licensed Dhivehi (Thaana) fonts. Live type tester, Thaana keyboard, downloads and CSS.">
+<link rel="icon" href="logo.svg"><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><a class="brand" href="#"><img src="logo.svg" alt="" width="36" height="36"> <span>Liyun</span><span lang="dv" class="dv">ލިޔުން</span></a>
+<div class="hdr"><span id="who" class="pill" hidden></span><button id="theme" aria-label="Toggle light/dark">🌓</button></div></header>
+<main>
+<section class="hero">
+<p class="big" lang="dv" dir="rtl">ލިޔުން</p>
+<h1>Dhivehi type, <em>free for everyone.</em></h1>
+<p class="sub">Test, compare and download openly licensed Thaana fonts. Every font here is SIL Open Font License, so you can use it in print, apps and websites.</p>
+<div class="stats"><div><b id="sSubs">…</b><span>subscribers</span></div><div><b id="sDl">…</b><span>downloads</span></div><div><b id="sFonts">…</b><span>font families</span></div></div>
+</section>
+<section class="panel tester">
+<textarea id="txt" lang="dv" dir="rtl" rows="2" aria-label="Type to preview">ދިވެހިރާއްޖެއަކީ ރީތި ރަށްތަކުގެ ޤައުމެކެވެ.</textarea>
+<div class="controls">
+<label class="sw"><input type="checkbox" id="phon" checked> Latin → Thaana typing</label>
+<button id="kbToggle">⌨️ Keyboard</button>
+<label class="rng">Size <input type="range" id="size" min="16" max="120" value="44"> <span id="sizeV">44</span></label>
+<select id="samples" aria-label="Sample text"><option value="">Samples…</option>
+<option>ދިވެހިރާއްޖެއަކީ ރީތި ރަށްތަކުގެ ޤައުމެކެވެ.</option><option>އައްސަލާމު ޢަލައިކުމް</option><option>މަސްވެރިކަމަކީ އަހަރެމެންގެ ފަޚުރު</option>
+<option>ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ</option><option>0123456789 ، ؟</option></select>
+<input id="q" type="search" placeholder="Search fonts or designers">
+</div>
+<div id="kb" class="kb" hidden></div>
+</section>
+<section id="cards" class="cards"></section>
+<section class="panel"><h2>Use on the web</h2>
+<div class="tabs"><select id="cssFont" aria-label="Font"></select><button data-t="s" class="on">Self-host @font-face</button><button data-t="g">Google Fonts (Noto only)</button></div>
+<pre id="code"></pre><button id="copy" class="cta">Copy snippet</button></section>
+<section class="panel"><h2>Licences &amp; credits</h2>
+<p>All fonts are released by their designers under the <b>SIL Open Font License 1.1</b>: free to use, embed, modify and share, but not to sell on their own. Each download includes the licence file. None of these fonts declare a Reserved Font Name.</p>
+<ul id="credits"></ul>
+<p class="mut">Fonts with unclear or commercial licences (for example Faruma, the MV series or paid foundry fonts) are not hosted here.</p></section>
+</main>
+<div id="modal" class="modal" hidden><form id="subF" class="sheet"><img src="logo.svg" width="56" alt=""><h3>Subscribe to download</h3><p>Just your name. No email, no password.</p>
+<input id="nm" required maxlength="40" placeholder="Your name" autocomplete="name"><button class="cta">Subscribe</button><button type="button" id="cancel" class="ghost">Not now</button></form></div>
+<footer>Design &amp; build by <a href="https://reseachrandomv.github.io/cv/">Fathimath Malaak Jaufar</a></footer>
+<script src="app.js"></script></body></html>
